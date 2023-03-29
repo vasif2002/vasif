@@ -1,0 +1,66 @@
+nav {
+  background-color: rgb(20, 18, 16);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 38px;
+}
+nav div {
+  color: azure;
+  display: flex;
+  gap: 20px;
+}
+nav div button {
+  display: none;
+}
+nav div a {
+  text-decoration: none;
+  color: rgb(236, 207, 168);
+}
+
+@media only screen and (max-width: 300px) {
+  nav div button {
+    display: block;
+  }
+  nav div a {
+    display: none;
+  }
+}
+main {
+  background-color: rgb(189, 21, 125);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .nam {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .asd {
+  font-size: 50px;
+}
+main button {
+  width: 200px;
+  height: 70px;
+  border-radius: 75px 75px;
+  font-size: 35px;
+  background-color: rgb(187, 68, 21);
+}
+
+.sey2 {
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+}
+.sey2 .qwe {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */
